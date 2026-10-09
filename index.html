@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert Kasongo (202503513) | Personal Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-container">
+      <h1>Albert Kasongo</h1>
+      <p class="subtitle">Student ID: 202503513 | BSc Computer Science | Mulungushi University</p>
+      <button id="theme-toggle" class="btn-theme">Toggle Dark Mode</button>
+    </div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#plan">Learning Plan</a>
+      <a href="#projects">Projects & Skills</a>
+      <a href="#photos">Photos</a>
+      <a href="#media">Media</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Introduction Area -->
+  <section class="hero">
+    <h2>Welcome to My Digital Portfolio</h2>
+    <p>Exploring web development, software engineering, and interactive web solutions.</p>
+    <a href="#projects" class="btn-primary">View My Projects</a>
+  </section>
+
+  <main>
+    <!-- Section 1: About Me -->
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Albert Kasongo (Student ID: 202503513), a dedicated second-year Computer Science student at Mulungushi University. I have a deep passion for software design, user interfaces, and dynamic web applications. My goal is to master modern front-end technologies and build robust back-end systems. Through my academic coursework and practical projects, I am constantly expanding my knowledge in HTML5, CSS3, JavaScript, and software engineering principles.
+      </p>
+      <p>
+        Learn more about web standards at 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener">MDN Web Docs Learning Area</a>.
+      </p>
+    </section>
+
+    <!-- Section 2: My Hobbies -->
+    <section id="hobbies" class="content-section">
+      <h2>My Hobbies</h2>
+      <p>Outside of my academic studies, here are three activities I enjoy:</p>
+      <ul>
+        <li>Web & Software Application Development</li>
+        <li>Computer Networks & Cybersecurity Concepts</li>
+        <li>Playing Chess and Competitive Strategy Games</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: My Learning Plan -->
+    <section id="plan" class="content-section">
+      <h2>My Learning Plan</h2>
+      <p>Three structured steps I am taking to enhance my software engineering and web development skill set:</p>
+      <ol>
+        <li>Master core DOM manipulation, JavaScript events, and asynchronous programming.</li>
+        <li>Build responsive web layouts using modern CSS Grid and Flexbox techniques.</li>
+        <li>Learn server-side fundamentals and automated deployment workflows.</li>
+      </ol>
+
+      <h3>Weekly Study Schedule</h3>
+      <table class="schedule-table">
+        <caption>Weekly Web Technology Study Plan</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Practice Task</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML5 Semantics & Structure</td>
+            <td>Build semantic page templates and accessible forms</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS Flexbox & Responsive Design</td>
+            <td>Style dynamic layouts with media queries</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>JavaScript & DOM Events</td>
+            <td>Implement client-side validation and interactive UI components</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 4: Projects & Skills -->
+    <section id="projects" class="content-section">
+      <h2>Projects & Skills</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Desktop Student Management System</h3>
+          <p>Built a Java-based desktop application utilizing modern UI design patterns and relational database integrations.</p>
+        </article>
+        <article class="project-card">
+          <h3>Network Infrastructure Simulator</h3>
+          <p>Configured and analyzed subnet routing, VLAN allocations, and network security protocols.</p>
+        </article>
+        <article class="project-card">
+          <h3>Interactive Personal Portfolio</h3>
+          <p>Designed a responsive multi-page web app deployed to Render using HTML5, CSS3, and modern JavaScript.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 5: My Photos (Interactive Gallery Viewer) -->
+    <section id="photos" class="content-section">
+      <h2>My Photos</h2>
+      <div class="gallery-container">
+        <!-- Exact filename match: images/image 1.jpg -->
+        <img id="gallery-img" src="images/image 1.jpg" alt="Albert Kasongo studying computer science">
+        <p id="gallery-caption">Photo 1: University Campus Library Overview</p>
+        <div class="gallery-controls">
+          <button id="prev-btn" class="btn-control">Previous</button>
+          <button id="next-btn" class="btn-control">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: My Media -->
+    <section id="media" class="content-section">
+      <h2>My Media</h2>
+
+      <!-- Video Component -->
+      <div class="media-item">
+        <h3>Self-Introduction Video</h3>
+        <!-- Exact filename match: videos/video.mp4 -->
+       <video controls width="100%" preload="auto">
+  <source src="videos/video.mp4" type="video/mp4">
+  <source src="videos/video.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+        <p><strong>Summary:</strong> In this short video, I introduce myself as Albert Kasongo (ID: 202503513), state my Computer Science programme at Mulungushi University, and highlight my goal of mastering web development technologies.</p>
+      </div>
+
+      <!-- Audio Component -->
+      <div class="media-item">
+        <h3>Audio Voice Clip</h3>
+        <audio controls preload="metadata">
+          <source src="videos/voice.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p><strong>Description:</strong> A short audio recording discussing my passion for technology, software engineering, and web development.</p>
+      </div>
+    </section>
+
+    <!-- Section 7: Expandable Content / FAQ -->
+    <section id="faq" class="content-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button class="faq-toggle">What technologies were used to build this site? +</button>
+        <div class="faq-content">
+          <p>This site was built using standard HTML5 semantic markup, CSS3 custom styling, and vanilla JavaScript.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-toggle">How is this site deployed? +</button>
+        <div class="faq-content">
+          <p>The source code is stored in a public GitHub repository and automatically deployed to the web via Render.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Contact Form -->
+    <section id="contact" class="content-section">
+      <h2>Contact Me</h2>
+      
+      <!-- Direct Contact Details -->
+      <div class="contact-details">
+        <p><strong>Phone Number:</strong> <a href="tel:0772687704">0772687704</a></p>
+        <p><strong>Email Address:</strong> <a href="mailto:kasongoa307@gmail.com">kasongoa307@gmail.com</a></p>
+      </div>
+
+      <p class="demo-note"><em>Browser demonstration form below — no message is sent to a remote server.</em></p>
+
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="fullName" required>
+          <span class="error-msg" id="name-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-msg" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="topic">Topic of Inquiry:</label>
+          <select id="topic" name="topic">
+            <option value="General Question">General Question</option>
+            <option value="Project Collaboration">Project Collaboration</option>
+            <option value="Feedback">Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="btn-primary">Submit Form</button>
+      </form>
+
+      <!-- Local Preview Container -->
+      <div id="form-preview" class="form-preview-box hidden"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2026 Albert Kasongo (202503513) | ICT251 Web Technologies</p>
+    <p><a href="https://github.com/kasongoa307-Berto/myweb" target="_blank" rel="noopener">View Source on GitHub</a></p>
+  </footer>
+
+</body>
+</html>
