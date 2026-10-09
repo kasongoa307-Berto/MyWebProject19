@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
   /* Feature 2: Interactive Photo Gallery Viewer */
   // Exact filenames matching your folder structure
   const galleryImages = [
-    { src: 'images/image 1.jpg', caption: 'Photo 1: University Campus Library Overview' },
-    { src: 'images/image2.jpg', caption: 'Photo 2: Computer Science Practical Lab Session' },
-    { src: 'images/image3.jpg', caption: 'Photo 3: Web Technology Workspace Setup' }
+    { src: 'image1.jpg', caption: 'Photo 1: University Campus Library Overview' },
+    { src: 'image2.jpg', caption: 'Photo 2: Computer Science Practical Lab Session' },
+    { src: 'image3.jpg', caption: 'Photo 3: Web Technology Workspace Setup' }
   ];
 
   let currentGalleryIndex = 0;
